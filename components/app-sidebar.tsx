@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
   Newspaper,
@@ -28,14 +29,14 @@ export function AppSidebar() {
       {/* Saphe logo-header */}
       <div className="px-5 pt-5 pb-4 border-b border-border">
         <div className="flex items-center gap-3">
-          {/* Saphe "S"-logo */}
-          <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground font-bold text-base shrink-0 shadow-sm">
-            S
-          </div>
-          <div>
-            <p className="text-sm font-bold text-foreground leading-tight">Saphe</p>
-            <p className="text-[11px] text-muted-foreground leading-tight">Marketing Dashboard</p>
-          </div>
+          <Image
+            src="/saphe-logo.png"
+            alt="Saphe"
+            width={100}
+            height={32}
+            className="h-8 w-auto object-contain"
+            priority
+          />
         </div>
       </div>
 
