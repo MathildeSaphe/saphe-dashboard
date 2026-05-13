@@ -6,7 +6,6 @@ import {
   Newspaper,
   TrendingUp,
   Target,
-  NotebookPen,
   Bot,
   Lightbulb,
 } from "lucide-react";
@@ -16,7 +15,6 @@ const navItems = [
   { label: "Medieovervågning",  href: "/medier",       icon: Newspaper  },
   { label: "SoMe performance",  href: "/some",         icon: TrendingUp },
   { label: "Konkurrentanalyse", href: "/konkurrenter", icon: Target     },
-  { label: "Notes / dagbog",    href: "/notes",        icon: NotebookPen},
   { label: "Chatbot",           href: "/chatbot",      icon: Bot        },
   { label: "Idéudvikling",      href: "/ideer",        icon: Lightbulb  },
 ];
