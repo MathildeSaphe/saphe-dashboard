@@ -30,8 +30,17 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env files (can opt-in for committing if needed)
+# env files — hold API-nøgler ude af GitHub
 .env*
+
+# Medieovervågning-filer skal med (synkroniseres automatisk)
+!data/media/
+
+# Store data-filer der ikke skal på GitHub
+data/m365.json
+data/media.json
+data/monday.json
+data/notes.json
 
 # vercel
 .vercel
