@@ -4,7 +4,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
 import {
-  LayoutDashboard,
   Newspaper,
   TrendingUp,
   Target,
@@ -15,7 +14,6 @@ import {
 import { cn } from "@/lib/utils";
 
 const navItems = [
-  { label: "Min arbejdsdag",  href: "/",            icon: LayoutDashboard },
   { label: "Medieovervågning",href: "/medier",       icon: Newspaper       },
   { label: "SoMe performance",href: "/some",         icon: TrendingUp      },
   { label: "Konkurrentanalyse",href: "/konkurrenter",icon: Target          },
