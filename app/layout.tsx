@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="da" className={`${geist.variable} h-full antialiased`}>
       <body className="h-full bg-background">
-        <TooltipProvider delayDuration={0}>
+        <TooltipProvider>
           <div className="flex h-screen overflow-hidden bg-[#f5f5f3]">
             <AppSidebar />
             <div className="flex flex-1 flex-col overflow-hidden">
