@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
 import {
+  LayoutDashboard,
   Newspaper,
   TrendingUp,
   Target,
@@ -13,6 +14,7 @@ import {
 import { cn } from "@/lib/utils";
 
 const navItems = [
+  { label: "Overblik",          href: "/overblik",     icon: LayoutDashboard },
   { label: "Medieovervågning",  href: "/medier",       icon: Newspaper  },
   { label: "SoMe performance",  href: "/some",         icon: TrendingUp },
   { label: "Konkurrentanalyse", href: "/konkurrenter", icon: Target     },
