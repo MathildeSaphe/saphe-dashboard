@@ -327,6 +327,7 @@ export default function Konkurrenter() {
             <p className="text-xs font-semibold text-muted-foreground mb-3 uppercase tracking-wide">Brand-narrativ</p>
             <PositioningMap
               xLabel="Pris-fokus → Sikkerheds-fokus"
+              yLabel="Niche → Mass-market"
               xLow="Billig" xHigh="Premium"
               yLow="Niche" yHigh="Mass-market"
               punkter={[
@@ -342,6 +343,7 @@ export default function Konkurrenter() {
             <p className="text-xs font-semibold text-muted-foreground mb-3 uppercase tracking-wide">Forretningsmodel</p>
             <PositioningMap
               xLabel="App-only → Hardware+App"
+              yLabel="Gratis → Abonnement"
               xLow="App" xHigh="Hardware"
               yLow="Gratis" yHigh="Abonnement"
               punkter={[
